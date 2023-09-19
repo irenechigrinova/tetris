@@ -1,2 +1,1 @@
-# tetris
-Classic tetris game
+Classic Tetris game

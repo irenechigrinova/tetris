@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+    <title>Tetris Game</title>
+  </head>
+  <body>
+    <main>
+      <div class="device">
+        <div class="main-color"></div>
+        <div class="block block-first"></div>
+        <div class="window">
+          <div class="window-bg"></div>
+          <div class="window-round"></div>
+          <div class="field"></div>
+          <div class="info">
+            <div class="info-field score">
+              <p class="title">score</p>
+              <p class="value">000000</p>
+            </div>
+            <div class="info-field hi-score">
+              <p class="title">hi-score</p>
+              <p class="value"></p>
+            </div>
+            <div class="info-field level">
+              <p class="title">level</p>
+              <p class="value">1</p>
+            </div>
+            <div class="info-field next">
+              <p class="title">next</p>
+              <div class="field-next"></div>
+            </div>
+            <div class="info-field status">
+              <p class="title">start</p>
+            </div>
+          </div>
+        </div>
+        <div class="block block-last"></div>
+        <div class="face">
+          <div class="face-color"></div>
+          <div class="eyes">
+            <div class="eye">
+              <div class="pupil"></div>
+            </div>
+            <div class="eye">
+              <div class="pupil"></div>
+            </div>
+          </div>
+          <div class="blush">
+            <div class="round">
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+            <div class="round">
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+          <div class="mouth">
+            <div class="teeth"></div>
+          </div>
+        </div>
+        <div class="second-bg"></div>
+        <div class="actions">
+          <div class="block block-first"></div>
+          <div class="actions-buttons">
+            <div class="game-controls">
+              <div>
+                <button class="power"></button>
+                <span>on/off/Q</span>
+              </div>
+              <div>
+                <button class="start"></button>
+                <span>start/pause/S</span>
+              </div>
+              <div>
+                <button class="mute"></button>
+                <span>mute/unmute/M</span>
+              </div>
+            </div>
+            <div class="movement-controls">
+              <div class="movement">
+                <div>
+                  <button class="left"></button>
+                  <span>left</span>
+                </div>
+                <div>
+                  <button class="right"></button>
+                  <span>right</span>
+                </div>
+                <div>
+                  <button class="down"></button>
+                  <span>down</span>
+                </div>
+              </div>
+              <div class="rotation">
+                <div>
+                  <button class="rotate"></button>
+                  <span>Rotate</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block block-last"></div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
